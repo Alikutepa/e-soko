@@ -1,3 +1,11 @@
+*{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+
+}
+
 .list{
     display: flex;
     justify-content: space-between;
