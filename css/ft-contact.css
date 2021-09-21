@@ -3,6 +3,7 @@
 }
 li a{
     text-decoration: none;
+    color: white;
 
 }
 
@@ -10,7 +11,9 @@ li a{
     display: flex;
     justify-content: space-between;
     background-color: green;
-    padding: 30px;
+    padding: 50px;
+    margin: 20px;
+
 }
 
 .checked{
