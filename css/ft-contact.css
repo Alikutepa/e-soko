@@ -1,0 +1,89 @@
+*{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+
+}
+li a:hover{
+    color: tomato;
+
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    padding: 50px;
+    margin: 20px;
+
+}
+
+.checked{
+    color: orange;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+}
+ h1 span{
+    color: green;
+}
+.swiper-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.review .review-slider{
+    padding: 1rem;
+}
+.review .review-slider .box{
+
+    background-color: rgb(52, 97, 31);
+    border-radius: 1rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    transition: .2s linear;
+    padding: 0px;
+    margin: 30px;
+    height: 450px;
+    line-height: 1px;
+    margin-right: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}   
+
+.review .review-slider .box:hover{
+    outline-offset: 0rem;
+    transform: scale(1.1);
+}
+
+.review .review-slider .box img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.review .review-slider .box p{
+    padding: 1rem 0;
+    line-height: 1.8;
+    color: light-color;
+    font-size: 1.2rem;
+}
+
+.review .review-slider .box h3{
+    padding-bottom: .5rem;
+    color:var(--black);
+    font-size: 2.2rem;
+    color: white;
+} 
+
+.review .review-slider .box .stars{
+    font-size: 1.7rem;
+} 
+body { background-color: var(--blue); }
+
+h1 span{
+    color: orange;
+}
