@@ -1,7 +1,23 @@
 .checked{
     color: orange;
 }
- body {
-     background-color: whitesmoke;
 
+.review .review-slider{
+    padding: 1rem;
+}
+.review .review-slider .box{
+
+    background-color: #fff;
+    border-radius: 5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+
+}
+.review .review-slider .box:hover{
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
 }
