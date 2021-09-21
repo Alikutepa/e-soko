@@ -60,3 +60,10 @@ h1{
     font-size: 1.7rem;
 } 
 body { background-color: var(--blue); }
+
+h1 span{
+    color: orange;
+}
+h1{
+    padding: 150px 0px;
+}
