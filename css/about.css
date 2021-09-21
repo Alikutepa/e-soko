@@ -1,14 +1,17 @@
 body {
-   
+   background-image: url(../images/wood-2879244_960_720.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 #container1{
     text-align: center;
     margin-left: 20px; margin-right: 5%;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 #text1{
     font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #img1{
@@ -18,11 +21,11 @@ body {
 
 #about-us{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 150px;
     font-weight: bolder;
     text-shadow: 10px;
-    color: rgb(9, 179, 128);
-    font-size: 55px;
+    color: rgb(161, 252, 153);
+    font-size: 65px;
     
 }
 
