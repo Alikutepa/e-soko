@@ -6,6 +6,10 @@ li a{
     color: white;
 
 }
+li a:hover{
+    color: tomato;
+
+}
 
 .list{
     display: flex;
@@ -72,6 +76,7 @@ h1{
     padding-bottom: .5rem;
     color:var(--black);
     font-size: 2.2rem;
+    color: white;
 } 
 
 .review .review-slider .box .stars{
@@ -81,7 +86,4 @@ body { background-color: var(--blue); }
 
 h1 span{
     color: orange;
-}
-h1{
-    padding: 150px 0px;
 }
