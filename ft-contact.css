@@ -18,21 +18,23 @@ h1{
 .review .review-slider .box{
 
     background-color: rgb(52, 97, 31);
-    border-radius: 5rem;
+    border-radius: 1rem;
     text-align: center;
     padding: 3rem 2rem;
     outline-offset: -1rem;
     outline: var(--outline);
     transition: .2s linear;
     padding: 0px;
-    margin: 40px;
-    height: 540px;
+    margin: 30px;
+    height: 510px;
     line-height: 1px;
+    margin-right: 120px;
 
-}
+}   
+
 .review .review-slider .box:hover{
-    outline: outline-hove;
     outline-offset: 0rem;
+    transform: scale(1.1);
 }
 
 .review .review-slider .box img{
