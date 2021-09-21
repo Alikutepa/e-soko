@@ -1,7 +1,10 @@
 .checked{
     color: orange;
 }
-
+.swiper-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
 .review .review-slider{
     padding: 1rem;
 }
@@ -14,7 +17,7 @@
     outline-offset: -1rem;
     outline: var(--outline);
     transition: .2s linear;
-    margin: 40px;
+    padding: 30px;
 
 }
 .review .review-slider .box:hover{
