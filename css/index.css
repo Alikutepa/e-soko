@@ -1,19 +1,1 @@
 @import url(https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css);
-#container{
-    background-image: url(../images/pexels-rauf-allahverdiyev-1367243.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
-    
-    
-}
-
-#text1{
-    text-align: center; 
-    
-    
-}
-
-#nav{
-    background-color: rgb(66, 186, 150)
-}
