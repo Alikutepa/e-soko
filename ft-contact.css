@@ -17,7 +17,9 @@
     outline-offset: -1rem;
     outline: var(--outline);
     transition: .2s linear;
-    padding: 30px;
+    padding: 5px;
+    margin: 70px;
+    height: 600px;
 
 }
 .review .review-slider .box:hover{
