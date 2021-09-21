@@ -5,10 +5,27 @@
 }
 
 #text1{
-    font-size: 20px;
+    font-size: 23px;
 }
 
 #img1{
     width: 1200px;
     height: 700px;
+}
+
+#about-us{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+    text-shadow: 10px;
+    color: rgb(9, 179, 128);
+    font-size: 65px;
+    
+}
+
+#text-produce{
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(204, 8, 8);
+    text-align: right;
 }
