@@ -1,7 +1,5 @@
 body {
-   background-image: url(../images/wood-2879244_960_720.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
+   
 }
 #container1{
     text-align: center;
@@ -21,7 +19,7 @@ body {
 
 #about-us{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 500px;
     font-weight: bolder;
     text-shadow: 10px;
     color: rgb(161, 252, 153);
