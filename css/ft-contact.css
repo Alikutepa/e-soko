@@ -10,6 +10,9 @@ li a:hover{
     color: tomato;
 
 }
+body{
+    background-color: whitesmoke;
+}
 
 .list{
     display: flex;
@@ -59,6 +62,8 @@ h1{
 .review .review-slider .box:hover{
     outline-offset: 0rem;
     transform: scale(1.1);
+    background-color: dodgerblue;
+    color: white;
 }
 
 .review .review-slider .box img{
