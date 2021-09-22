@@ -26,6 +26,7 @@ li a:hover{
 h1{
     text-align: center;
     font-weight: bolder;
+    padding: 40px;
 }
  h1 span{
     color: green;
@@ -39,7 +40,6 @@ h1{
 }
 .review .review-slider .box{
 
-    background-color: rgb(52, 97, 31);
     border-radius: 1rem;
     text-align: center;
     padding: 3rem 2rem;
