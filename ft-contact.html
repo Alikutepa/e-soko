@@ -140,7 +140,7 @@
 
     <section class="container">
         <h1>Contact <span>Us</span></h1>
-        <form class="row g-3 needs-validation" novalidate>
+        <form class="row g-3 needs-validation" novalidate  id="contactForm">
             <div class="col-md-4">
               <label for="validationCustom01" class="form-label">First name</label>
               <input type="text" class="form-control" id="validationCustom01" placeholder="John" required>
@@ -149,7 +149,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <label for="validationCustom02" class="form-label">Last name</label>
+              <label for="validationCustom02" class="form-label">Last name</label required>
               <input type="text" class="form-control" id="validationCustom02" placeholder="Doe" required>
               <div class="valid-feedback">
                 Looks good!
@@ -190,8 +190,8 @@
               </div>
             </div>
             <div class="col-md-3">
-              <label for="validationCustom05" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="validationCustom05" required>
+              <label for="zip" class="form-label">Zip</label>
+              <input type="text" required>
               <div class="invalid-feedback">
                 Please provide a valid zip.
               </div>
@@ -208,7 +208,16 @@
               </div>
             </div>
             <div class="col-12">
-              <button class="btn btn-primary" type="submit">Submit form</button>
+              <button class="btn btn-primary" type="submit"  onclick="clicked(event)">Submit form</button>
+              <script>
+                function clicked(e)
+                {
+                    if(!confirm('Thanks for reaching out. we  will get back to you.')) {
+                        e.preventDefault();
+                    }
+                }
+                </script>
+
             </div>
           </form>
 
