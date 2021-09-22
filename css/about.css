@@ -47,7 +47,8 @@
 #text-produce{
     font-weight: bolder;
     font-size: 25px;
-    color: rgb(204, 8, 8);
+    color: rgb(14, 1, 1);
     text-align: right;
+    margin-right: 170px;
 }
 
