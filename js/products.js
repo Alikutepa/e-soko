@@ -12,3 +12,4 @@ document.querySelector(".addToCart").addEventListener("click", function(){
   )
   sessionStorage.setItem("orders",JSON.stringify(orders));
 });
+
