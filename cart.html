@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/cart.css">
+
+  <title>Cart</title>
+</head>
+<body onload="showCart()">
+  <nav class="navbar navbar-expand-lg bg-success navbar-success py-3 fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand text-light">e-soko</a>
+
+      <button class="navbar-toggler" type="button"data-bs-toggle="collapse" data-bs-target="#navmenu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link text-light">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link text-light">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a href="categories.html" class="nav-link text-light">CATEGORY</a>
+          </li>
+          <li class="nav-item">
+            <a href="products.html" class="nav-link text-light">PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a href="ft-contact.html" class="nav-link text-light">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a href="cart.html" class="nav-link text-light">Cart</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <h3 class="text-center fw-bold pt-5 pb-3">Order Summary</h3>
+  <table class="table table-sm table-striped" id="orderSummary">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">ITEM NAME</th>
+        <th scope="col">QUANTITY</th>
+        <th scope="col">Sub Total</th>
+      </tr>
+    </thead>
+    <tbody id="orders">
+      
+  
+    </tbody>
+    <tfoot>
+      <tr>
+          <td class="text-end">Order Total Ksh:</td>
+      </tr>
+    </tfoot>
+    
+  </table>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="./js/cart.js"></script>
+</body>
+</html>

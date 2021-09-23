@@ -34,6 +34,12 @@
           <li class="nav-item">
             <a href="ft-contact.html" class="nav-link text-light">CONTACT US</a>
           </li>
+          <li class="nav-item">
+            <a href="cart.html" class="nav-link text-light" >
+              <b id="cartTotal">0</b>
+              CART
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -41,7 +47,6 @@
 <section id="products" >
   <div class="container-fluid">
     <h1 class="text-center p-3"> OUR <span class="text-success">PRODUCTS</span></h1>
-    <form>
       <div class="row">
         <!-- fruits -->
         <div class="col">
@@ -56,16 +61,17 @@
               <span class="fa fa-star-half checked"></span>
   
             </div>
-            <p class="text-center pb-3 fs-5">Ksh:10</p>
-            <form action="">
+            <form class="order-item">
+              <p class="text-center pb-3 fs-5">
+                KSH <input type="text" value="10.00" name="itemPrice" class="w-25 border-0" readonly>
+              </p>
               <div class="form-group container">
                 <label class="text-center container pb-2"  for="">Quantity</label>
-                <input class=" mb-3" type="number" min="1">
+                <input class="mb-3" type="number" value="1" name="qty" min="1">
+                <input type="hidden" name="itemName" value="orange">
                 <div class="text-center">
                   <button type="submit" class="btn btn-success mb-3 addToCart">Add To Cart</button>
-                </div>
-  
-  
+                </div>  
               </div>
             </form>
   
@@ -83,16 +89,17 @@
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star-half checked"></span>
             </div>
-            <p class="text-center pb-3 fs-5">Ksh:50</p>
-            <form action="">
+            <form class="order-item">
+              <p class="text-center pb-3 fs-5">
+                KSH <input type="text" value="50.00" name="itemPrice" class="w-25 border-0" readonly>
+              </p>
               <div class="form-group container">
                 <label class="text-center container pb-2"  for="">Quantity</label>
-                <input class="text-center mb-3" type="number" min="1">
+                <input class="mb-3" type="number" value="1" name="qty" min="1">
+                <input type="hidden" name="itemName" value="Avocado">
                 <div class="text-center">
                   <button type="submit" class="btn btn-success mb-3 addToCart">Add To Cart</button>
-                </div>
-  
-  
+                </div>  
               </div>
             </form>
   
@@ -389,7 +396,6 @@
           
     
         </div>
-    </form>
     <div class="container">
         <h3 class="text-center fw-bold pt-5 pb-3">Order Summary</h3>
       <table class="table table-sm table-striped" id="orderSummary">
