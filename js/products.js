@@ -13,7 +13,7 @@ frm.submit(function(event){
   const orderItem = {
     itemName : formData.get('itemName'),
     qty : formData.get('qty'),
-    unitPrice : formData.get('itemPrice'),
+    unitPrice : parseFloat(formData.get('itemPrice')),
     subTotal: parseFloat(formData.get('qty') * formData.get('itemPrice'))
   }
 
