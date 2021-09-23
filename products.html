@@ -308,16 +308,18 @@
     
     
               </div>
-              <p class="text-center pb-3 fs-5">Ksh:150</p>
-              <form action="">
+              
+              <form class="order-item">
+                <p class="text-center pb-3 fs-5">
+                  KSH <input type="text" value="150.00" name="itemPrice" class="w-25 border-0" readonly>
+                </p>
                 <div class="form-group container">
                   <label class="text-center container pb-2"  for="">Quantity</label>
-                  <input class="text-center mb-3" type="number" min="1">
+                  <input class="mb-3" type="number" value="1" name="qty" min="1">
+                  <input type="hidden" name="itemName" value="tropical-mix">
                   <div class="text-center">
                     <button type="submit" class="btn btn-success mb-3 addToCart">Add To Cart</button>
-                  </div>
-    
-    
+                  </div>  
                 </div>
               </form>
     
