@@ -1,63 +1,36 @@
-#container1{
+.about{
+    padding-top: 300px; padding-bottom: 25px;
     text-align: center;
-    margin-left: 40px; 
-    margin-top: 50px;
-}
-
-#about{
-    margin-top: 200px; 
-    text-align: center; 
-    color: rgb(5, 167, 113);
+    color: rgb(67, 201, 156);
     font-weight: bolder;
-    font-size: 50px;  
+    font-size: 60px;
 }
 
-#about{
-    animation: ease-in;
-    animation-name: inherit;
-    animation-duration: 5s;
+.text{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
-#text1{
-    font-size: 23px;
+.caption{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-#img1{
-    width: 1200px;
-    height: 700px;
-    
+.img{
+    height: 400px;
+    padding-top: 10px;
+    border-radius: 25%;
 }
 
-
-
-#about-us{
-    text-align: left;
-    margin-top: 100px;
-    font-weight: bolder;
-    text-shadow: 10px;
-    color: rgb(161, 252, 153);
-    font-size: 65px;
-    margin-bottom: 20px;
-    
+.text2{
+    color: rgb(67, 201, 156);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    /* padding-left: 300px; */
+    padding-top: 20px;
 }
-
-#text-produce{
-    font-weight: bolder;
-    font-size: 25px;
-    color: rgb(14, 1, 1);
-    text-align: right;
-    margin-right: 170px;
-}
-
-#text2{
-    margin-left: 450px;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 30px;
-    color: rgb(5, 167, 113);
-}
-
-#about{
-    animation: backwards;
-  }

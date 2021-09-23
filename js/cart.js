@@ -1,7 +1,16 @@
 const showCart =() =>{
-  const orders=JSON.parse(sessionStorage.getItem("orders"));
+  // get the cart from session storage
+  const orders = (sessionStorage.getItem("cart")? JSON.parse(sessionStorage.getItem("cart")): []);
 
-  orders.forEach(element , index => {
-    document.querySelector("#list").innerHTML += <li>${element["name"]}</li>
+  // dispplay item from cart to a table
+  orders.forEach((element , index) => {
+    document.querySelector("#orders").innerHTML += `
+      <tr>
+        <th scope="row">${index + 1}</th>
+        <td>${element.itemName}</td>
+        <td>${element.qty}</td>
+        <td>${element.subTotal}</td>
+      </tr>
+    `;
   });
 };
