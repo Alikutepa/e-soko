@@ -22,3 +22,15 @@
 main{
   padding-top: 20em;
 }
+
+.page-footer img{
+  display: inline;
+  width: 10%;
+  padding-right: 30px;
+}
+.orange{
+  color: blue;
+}
+p a{
+  text-decoration: none;
+}
