@@ -26,10 +26,9 @@
 
 .text2{
     color: rgb(67, 201, 156);
-    text-align: center;
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    padding-left: 300px;
+    /* padding-left: 300px; */
     padding-top: 20px;
 }
