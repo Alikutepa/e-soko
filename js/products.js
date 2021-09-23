@@ -9,11 +9,11 @@ frm.submit(function(event){
   event.preventDefault();
   const formData = new FormData(this);
 
-  // create an orer item
+  // create an order item
   const orderItem = {
     itemName : formData.get('itemName'),
     qty : formData.get('qty'),
-    unitPrice : parseFloat(formData.get('itemPrice')),
+    unitPrice : parseInt(formData.get('itemPrice')),
     subTotal: parseFloat(formData.get('qty') * formData.get('itemPrice'))
   }
 
