@@ -93,3 +93,11 @@ body { background-color: var(--blue); }
 h1 span{
     color: orange;
 }
+.page-footer img{
+    display: inline;
+    width: 10%;
+    padding-right: 30px;
+}
+.orange{
+    color: blue;
+}
