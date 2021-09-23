@@ -1,5 +1,5 @@
 .about{
-    padding-top: 300px; padding-bottom: 25px;
+    padding-top: 110px; padding-bottom: 15px;
     text-align: center;
     color: rgb(67, 201, 156);
     font-weight: bolder;
@@ -11,6 +11,7 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
+    padding-bottom: 25px;
 }
 
 .caption{
@@ -31,6 +32,17 @@
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    /* padding-left: 300px; */
     padding-top: 20px;
+}
+
+.page-footer img{
+    display: inline;
+    width: 10%;
+    padding-right: 30px;
+}
+.orange{
+    color: blue;
+}
+p a{
+    text-decoration: none;
 }
